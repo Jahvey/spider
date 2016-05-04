@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c3p0-config>
+	<default-config>
+		<property name="driverClass">com.mysql.jdbc.Driver</property>
+		<property name="jdbcUrl">jdbc:mysql:192.168.1.171:3306/crxy1</property>
+		<property name="user">crxy</property>
+		<property name="password">crxy</property>
+		
+	</default-config>
+
+	<!-- This app is massive! -->
+	<named-config name="momo">
+		<property name="driverClass">com.mysql.jdbc.Driver</property>
+		<property name="jdbcUrl">jdbc:mysql:///xiaoxiaomo</property>
+		<property name="user">root</property>
+		<property name="password">root</property>
+	</named-config>
+</c3p0-config>

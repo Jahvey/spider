@@ -2,6 +2,7 @@ package com.xxo.spider.store;
 
 import com.alibaba.fastjson.JSONObject;
 import com.xxo.spider.domain.Page;
+import com.xxo.spider.utils.C3P0Utils;
 import com.xxo.spider.utils.MyDateUtils;
 import com.xxo.spider.utils.MyDbUtils;
 
@@ -24,6 +25,9 @@ public class MysqlStoreImpl implements Storeable {
 
         MyDbUtils.update(MyDbUtils.INSERT_LOG ,
                 prop.getString("goodId"),page.getUrl(), img , title ,price ,property ,date2);
+
+//        C3P0Utils.update(C3P0Utils.INSERT_LOG,
+//                prop.getString("goodId"), page.getUrl(), img, title, price, property, date2);
 
     }
 }
