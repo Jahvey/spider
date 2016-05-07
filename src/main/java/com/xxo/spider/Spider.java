@@ -1,6 +1,5 @@
 package com.xxo.spider;
 
-import com.sun.media.jfxmedia.logging.Logger;
 import com.xxo.spider.domain.Page;
 import com.xxo.spider.download.DownloadJDPageImpl;
 import com.xxo.spider.download.Downloadable;
