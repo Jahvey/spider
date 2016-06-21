@@ -4,6 +4,7 @@ import com.xxo.spider.domain.Page;
 import org.slf4j.LoggerFactory;
 
 /**
+ * 控制台
  * Created by xiaoxiaomo on 2016/4/29.
  */
 public class ConsoleStoreImpl implements Storeable {

@@ -9,6 +9,7 @@ import com.xxo.spider.repository.QueueRepository;
 import com.xxo.spider.repository.RedisRepository;
 import com.xxo.spider.repository.Repository;
 import com.xxo.spider.store.ConsoleStoreImpl;
+import com.xxo.spider.store.HBaseStoreImpl;
 import com.xxo.spider.store.MysqlStoreImpl;
 import com.xxo.spider.store.Storeable;
 import com.xxo.spider.utils.Config;
@@ -116,7 +117,8 @@ public class Spider {
         spider.setRepository(new RedisRepository()); //如设置必须在入口页面之前
         spider.setEntryPage("http://list.jd.com/list.html?cat=9987%2C653%2C655&go=0");
         spider.setProcessable(new ProcessJDMobileImpl());
-        spider.setStoreable(new MysqlStoreImpl());
+//        spider.setStoreable(new MysqlStoreImpl());
+        spider.setStoreable(new HBaseStoreImpl());
         spider.start();
     }
 

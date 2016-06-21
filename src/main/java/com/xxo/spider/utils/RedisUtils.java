@@ -21,7 +21,7 @@ public class RedisUtils {
 		poolConfig.setMaxTotal(100);
 		poolConfig.setMaxWaitMillis(10000);
 		poolConfig.setTestOnBorrow(true);
-		jedisPool = new JedisPool(poolConfig, "120.24.163.105", 6379);
+		jedisPool = new JedisPool(poolConfig, "192.168.1.171", 6379);
 	}
 	
 	public List<String> lrange(String key,int start,int end){
@@ -38,6 +38,7 @@ public class RedisUtils {
 		resource.lpush(key, url);
 		resource.close();
 	}
+
 	public String poll(String key) {
 		Jedis resource = jedisPool.getResource();
 		String result = resource.rpop(key);

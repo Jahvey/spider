@@ -141,7 +141,7 @@ public class ProcessJDMobileImpl implements Processable {
         String goodId = null;
         if( matcher.find() ){
             goodId = matcher.group(1) ;
-            page.setProp("goodId" , "JD_" + goodId );
+            page.setProp("goodId" ,  goodId + "_JD");
         }
         String content = PageUtils.getContentByURL("http://p.3.cn/prices/get?skuid=J_" + goodId);
         if( content != null && content.length() > 0 ){

@@ -9,7 +9,7 @@ import com.xxo.spider.utils.MyDbUtils;
 import java.util.Date;
 
 /**
- *
+ * 存储到 MySQL
  * Created by xiaoxiaomo on 2016/4/29.
  */
 public class MysqlStoreImpl implements Storeable {
