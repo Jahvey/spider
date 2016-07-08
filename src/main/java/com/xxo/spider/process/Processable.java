@@ -4,7 +4,7 @@ import com.xxo.spider.domain.Page;
 
 /**
  *
- * Created by xiaoxiaomo on 2016/5/3.
+ * Created by xiaoxiaomo on 2015/5/3.
  */
 public interface Processable {
 

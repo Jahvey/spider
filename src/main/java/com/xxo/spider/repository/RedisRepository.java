@@ -4,7 +4,7 @@ import com.xxo.spider.utils.RedisUtils;
 
 /**
  * Redis队列
- * Created by xiaoxiaomo on 2016/5/4.
+ * Created by xiaoxiaomo on 2015/5/4.
  */
 public class RedisRepository implements Repository {
 

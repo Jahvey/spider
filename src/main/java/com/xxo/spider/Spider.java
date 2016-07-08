@@ -22,7 +22,7 @@ import java.util.concurrent.Executors;
 
 /**
  * 网络爬虫
- * Created by xiaoxiaomo on 2016/5/3.
+ * Created by xiaoxiaomo on 2015/5/3.
  */
 public class Spider {
     private org.slf4j.Logger logger = LoggerFactory.getLogger(ProcessJDMobileImpl.class);

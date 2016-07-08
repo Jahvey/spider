@@ -5,7 +5,7 @@ import java.util.concurrent.ConcurrentLinkedDeque;
 
 /**
  * 普通队列（不具有优先级）
- * Created by xiaoxiaomo on 2016/5/4.
+ * Created by xiaoxiaomo on 2015/5/4.
  */
 public class QueueRepository implements Repository {
 

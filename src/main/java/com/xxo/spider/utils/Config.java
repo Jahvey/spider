@@ -6,7 +6,7 @@ import java.util.Properties;
 
 /**
  * 加载配置文件
- * Created by xiaoxiaomo on 2016/5/4.
+ * Created by xiaoxiaomo on 2015/5/4.
  */
 public class Config {
 

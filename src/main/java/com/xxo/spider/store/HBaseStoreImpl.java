@@ -7,7 +7,7 @@ import com.xxo.spider.utils.RedisUtils;
 
 /**
  * HBase 存储
- * Created by xiaoxiaomo on 2016/6/21.
+ * Created by xiaoxiaomo on 2015/6/21.
  */
 public class HBaseStoreImpl implements Storeable{
 

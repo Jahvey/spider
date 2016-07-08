@@ -19,7 +19,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by xiaoxiaomo on 2016/5/5.
+ * Created by xiaoxiaomo on 2015/5/5.
  */
 public class TestLogin {
 
@@ -35,8 +35,8 @@ public class TestLogin {
         HttpPost post = new HttpPost("http://svn.jundie.net/user/login") ;
         List<BasicNameValuePair> parameters = new ArrayList<BasicNameValuePair>() ;
 
-        parameters.add( new BasicNameValuePair("uid" ,"crxy")) ;
-        parameters.add( new BasicNameValuePair("pwd", "www.crxy.cn")) ;
+        parameters.add( new BasicNameValuePair("uid" ,"xiaoxiaomo")) ;
+        parameters.add( new BasicNameValuePair("pwd", "www.xiaoxiaomo.cn")) ;
 
         HttpEntity entity = new UrlEncodedFormEntity(parameters) ;
         post.setEntity(entity); //设置参数

@@ -2,9 +2,9 @@
 <c3p0-config>
 	<default-config>
 		<property name="driverClass">com.mysql.jdbc.Driver</property>
-		<property name="jdbcUrl">jdbc:mysql:192.168.1.171:3306/crxy1</property>
-		<property name="user">crxy</property>
-		<property name="password">crxy</property>
+		<property name="jdbcUrl">jdbc:mysql:192.168.1.171:3306/xiaoxiaomo1</property>
+		<property name="user">xiaoxiaomo</property>
+		<property name="password">xiaoxiaomo</property>
 		
 	</default-config>
 

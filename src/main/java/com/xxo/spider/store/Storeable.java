@@ -4,7 +4,7 @@ import com.xxo.spider.domain.Page;
 
 /**
  * 存储接口
- * Created by xiaoxiaomo on 2016/4/29.
+ * Created by xiaoxiaomo on 2015/4/29.
  */
 public interface Storeable {
 

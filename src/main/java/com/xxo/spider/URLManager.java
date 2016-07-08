@@ -9,7 +9,7 @@ import org.quartz.impl.StdSchedulerFactory;
 /**
  * URL调度：负责定时某个时间点给爬虫添加种子URL
  *
- * Created by xiaoxiaomo on 2016/5/4.
+ * Created by xiaoxiaomo on 2015/5/4.
  */
 public class URLManager {
 

@@ -16,8 +16,8 @@ import org.apache.commons.dbutils.handlers.ArrayListHandler;
 public final class MyDbUtils {// 拒绝继承
 	private static String className = "com.mysql.jdbc.Driver";
 	private static String url = "jdbc:mysql://192.168.1.171:3306/test?useUnicode=true&characterEncoding=utf-8";
-	private static String user = "crxy";
-	private static String password = "crxy";
+	private static String user = "xiaoxiaomo";
+	private static String password = "xiaoxiaomo";
 //	private static String url = "jdbc:mysql://120.24.163.105:3306/spider?useUnicode=true&characterEncoding=utf-8";
 //	private static String user = "root";
 //	private static String password = "xiaoxiaomo";

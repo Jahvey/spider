@@ -5,7 +5,7 @@ import com.mchange.v2.c3p0.ComboPooledDataSource;
 
 /**
  * c3p0连接池用法
- * Created by xiaoxiaomo on 2016/4/26.
+ * Created by xiaoxiaomo on 2015/4/26.
  *
  */
 public class C3P0Utils {
