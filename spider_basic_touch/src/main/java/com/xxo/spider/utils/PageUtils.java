@@ -28,8 +28,10 @@ public class PageUtils {
         HttpClientBuilder builder = HttpClients.custom();
 
         //2. 通过构造器获取一个httpClient对象
-        HttpHost proxy = new HttpHost("这个ip是一个吗",8080) ;  //设置代理ip
-        CloseableHttpClient client = builder.setProxy(proxy).build();
+//        HttpHost proxy = new HttpHost("这个ip是一个吗",8080) ;  //设置代理ip
+//        CloseableHttpClient client = builder.setProxy(proxy).build();
+
+        CloseableHttpClient client = builder.build();
 
         //3. 通过执行httpClient的execute方法请求一个url并返回response对象
         try {

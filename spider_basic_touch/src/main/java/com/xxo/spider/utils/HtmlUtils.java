@@ -3,8 +3,6 @@ package com.xxo.spider.utils;
 import org.htmlcleaner.TagNode;
 import org.htmlcleaner.XPatherException;
 
-import java.lang.annotation.Target;
-
 /**
  * Created by xiaoxiaomo on 2015/4/29.
  */

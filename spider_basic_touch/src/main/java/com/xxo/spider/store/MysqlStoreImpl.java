@@ -2,7 +2,6 @@ package com.xxo.spider.store;
 
 import com.alibaba.fastjson.JSONObject;
 import com.xxo.spider.domain.Page;
-import com.xxo.spider.utils.C3P0Utils;
 import com.xxo.spider.utils.MyDateUtils;
 import com.xxo.spider.utils.MyDbUtils;
 

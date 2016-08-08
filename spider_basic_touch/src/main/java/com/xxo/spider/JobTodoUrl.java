@@ -1,4 +1,4 @@
-package com.xiaoxiaomo.spider;
+package com.xxo.spider;
 
 import com.xxo.spider.utils.RedisUtils;
 import org.quartz.Job;

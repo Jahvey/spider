@@ -1,4 +1,4 @@
-package com.xiaoxiaomo.spider;
+package com.xxo.spider;
 
 import org.quartz.CronTrigger;
 import org.quartz.JobDetail;
