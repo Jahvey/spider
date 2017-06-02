@@ -7,10 +7,10 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>spider_basic_touch</artifactId>
+    <artifactId>spider-base</artifactId>
     <packaging>jar</packaging>
 
-    <name>spider_basic_touch</name>
+    <name>spider-base</name>
     <url>http://maven.apache.org</url>
 
     <properties>
