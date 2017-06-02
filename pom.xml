@@ -5,16 +5,16 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.xiaoxiaomo</groupId>
-    <artifactId>Spider_20150603</artifactId>
+    <artifactId>spider</artifactId>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>spider_basic_touch</module>
-        <module>spider_es_hbase</module>
-        <module>spider_web</module>
+        <module>spider-base</module>
+        <module>spider-core</module>
+        <module>spider-web</module>
     </modules>
     <packaging>pom</packaging>
 
-    <name>Spider_20150603</name>
+    <name>spider</name>
     <url>http://maven.apache.org</url>
 
     <properties>
